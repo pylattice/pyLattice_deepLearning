@@ -3,7 +3,7 @@ import glob
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 import sys
-sys.path.insert(0, '/home/gautham/bkly/LatticeLightSheet/pyLattice2')
+sys.path.insert(0, '/home/gautham/bkly/LatticeLightSheet/pyLattice2/src/tensorflow/')
 
 
 from unet3d.data import write_data_to_file, open_data_file
