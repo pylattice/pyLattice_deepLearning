@@ -1,1 +1,1 @@
-# pyLatticeML
+# pyLattice_deepLearning
