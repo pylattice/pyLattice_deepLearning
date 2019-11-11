@@ -1,1 +1,0 @@
-gcloud compute scp tensorflow-1-vm:/home/gauthamar11/pyLattice2/clathrin/punted_segmentation_model.h5 /home/gautham/bkly/LatticeLightSheet/pyLattice2/src/tensorflow/clathrin/
