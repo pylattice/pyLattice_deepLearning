@@ -47,7 +47,7 @@ class DataGen(keras.utils.Sequence):
 
         #lattice_patches = lattice_patches/(2/3*65535.0)
         #BOTTOM LINE COMMENTED FOR PSNR5 Data. UNCOMMENT FOR FUTURE USE and use 255.0
-        mask_patches = mask_patches/256.0
+        mask_patches = mask_patches/255.0
         
         weight_patches = np.zeros((self.patch_size ** 3, 2))
         weight_patches[:, 0] = 0.005
