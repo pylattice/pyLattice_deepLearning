@@ -1,4 +1,4 @@
-# pyLattice2 - Machine Learning
+# pyLattice2 - Deep Learning
 
 ## Getting Started
 
@@ -17,26 +17,21 @@ NOTE: Ensure that the Tensorflow backend in Keras is being used
 
 Steps to setup the environment on a computer
 
-//TODO: Google Cloud
-
  1 . Clone this repository
  
  2 . Install these dependencies:
 ```
-nibabel,
-keras,
-pytables,
-nilearn,
-SimpleITK,
-nipype
+keras
+numpy
+skimage
+json
+shutil
+matplotlib
 ```
 
- 3 .  In train.py change line 6 to reflect the path of the tensorflow folder on your personal machine
-
-```
-sys.path.insert(0, '/home/gautham/bkly/LatticeLightSheet/pyLattice2/src/tensorflow/')
-```
-
+ 3.  Go through the quickstart notebooks.
+ 
+ 
 ## Running the tests
 // TODO: How to recreate model weights on machine/gcloud
 
