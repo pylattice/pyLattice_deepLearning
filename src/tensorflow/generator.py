@@ -1,7 +1,7 @@
 import os
 
 import numpy as np
-import skimage
+import skimage.external.tifffile
 from skimage.util.shape import view_as_blocks
 
 from tensorflow import keras
