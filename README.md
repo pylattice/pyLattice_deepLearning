@@ -4,7 +4,7 @@ Patch-Trained 3D U-Nets for Binary Segmentation. 3 Clear Jupyter Notebooks.
 
 ![3D U-Net Architecture](images/u-net_architecture.PNG)
 
-pyLattice_deepLearning was created to segment puncta in 3D microscopy data. However, our Jupyter Notebooks will walk you through training a 3D U-Net on data of your choice. Since our microscopy data was highly skewed, we developed code to split images into cube patches (x,y,z), discard patches with low or no signal, and train on the remaining patches. For segmentation, our code once again splits the image into cube patches, performs segmentation within each patch, and stitches the patches together for the final output. Therefore, the trained U-Nets can segment images with large arbitrary dimensions (x,y,z), given that these images have the same resolution as the training data.  
+pyLattice_deepLearning was created to segment puncta in 3D microscopy data. However, our Jupyter Notebooks will walk you through training a 3D U-Net on data of your choice. Since our microscopy data was highly skewed, we developed code to split images into cube patches (x,y,z), discard patches with low or no signal, and train on the remaining patches. For predictions, our code once again splits the image into cube patches, performs segmentation within each patch, and stitches the patches together for the final output. Therefore, the trained U-Nets can segment images with large arbitrary dimensions (x,y,z), given that these images have the same resolution as the training data.  
 
 ## Getting Started
 
