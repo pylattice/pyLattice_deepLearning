@@ -62,13 +62,14 @@ This notebook loads a 3D U-Net from the weights and exports the prediction.
 If you use our code, please consider citing: 
 ```
 @inproceedings{schöneberg_raghupathi,
-  author={Schöneberg, Johannes and Raghupathi, Gautham},
+  author={Schöneberg, Johannes and Raghupathi, Gautham and Betzig, Eric and Drubin, David},
   title={3D Deep Convolutional Neural Networks in Lattice Light-Sheet Data Puncta Segmentation},
   booktitle={2019 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)},
   year={2019}
   pages={2369–2372}
 }
 ```
+[https://doi.org/10.1109/BIBM47256.2019.8983012](https://doi.org/10.1109/BIBM47256.2019.8983012)
 
 ## License
 [BSD-3-Clause License](https://github.com/JohSchoeneberg/pyLattice_deepLearning/blob/master/LICENSE)
