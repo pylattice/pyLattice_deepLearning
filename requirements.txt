@@ -1,5 +1,5 @@
 jupyter
 numpy==1.18
 scikit-image==0.16.2
-tensorflow==1.14
+tensorflow==2.5.0
 keras==2.2.5
